@@ -60,10 +60,10 @@ class Message {
   );
 
   // FAVORITE CONTACTS
-  List<User> favorites = [sam, steven, olivia, john, greg];
+  static final List<User> favorites = [sam, steven, olivia, john, greg];
 
   // EXAMPLE CHATS ON HOME SCREEN
-  List<Message> chats = [
+  static final List<Message> chats = [
     Message(
       sender: james,
       time: '5:30 PM',
@@ -123,7 +123,7 @@ class Message {
   ];
 
   // EXAMPLE MESSAGES IN CHAT SCREEN
-  List<Message> messageg = [
+  static final List<Message> messages = [
     Message(
       sender: james,
       time: '3:25 PM',
